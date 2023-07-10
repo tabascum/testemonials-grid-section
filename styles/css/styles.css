@@ -21,7 +21,7 @@ body {
   max-height: 100vh;
   justify-content: center;
   font-family: "Barlow Semi Condensed", sans-serif;
-  background-color: var(--light-gray);
+  background-color: var(--light-grayish-blue);
   color: var(--light-grayish-blue);
   font-weight: 500;
   line-height: 1.2;
@@ -72,6 +72,7 @@ body {
   border-radius: 0.6rem;
   gap: 0.5rem;
   padding: 2rem;
+  box-shadow: 0.2rem 0.3rem 0.6rem var(--light-gray);
 }
 
 .cards-wrapper .card img {
@@ -86,17 +87,17 @@ body {
   gap: 2rem;
 }
 
-.cards-wrapper .card:not(.kira):not(.jeanette) picture figcaption :first-child {
+.cards-wrapper .card:not(.kira):not(.jeanette) picture .card-header :first-child {
   font-weight: 600;
   color: var(--light-grayish-blue);
 }
 
-.cards-wrapper .card:not(.kira):not(.jeanette) picture figcaption :nth-child(2) {
+.cards-wrapper .card:not(.kira):not(.jeanette) picture .card-header :nth-child(2) {
   color: var(--light-grayish-blue);
   opacity: 50%;
 }
 
-.cards-wrapper .card:is(.kira, .jeanette) picture figcaption :nth-child(2) {
+.cards-wrapper .card:is(.kira, .jeanette) picture .card-header :nth-child(2) {
   opacity: 50%;
 }
 
