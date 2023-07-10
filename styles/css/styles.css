@@ -107,7 +107,7 @@ body {
   gap: 1rem;
 }
 
-.cards-wrapper .card .card-content quote {
+.cards-wrapper .card .card-content p {
   opacity: 70%;
   line-height: 1.1rem;
 }
